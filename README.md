@@ -6,23 +6,29 @@
 
 ![Sigformer](https://github.com/anh-tong/sigformer/raw/main/assets/sigformer.jpg)
 
+### Installation
+
+There are major required package including
+```
+jax
+equinox   # https://github.com/patrick-kidger/equinox
+signax    # https://github.com/anh-tong/signax
+numpyro   # https://github.com/pyro-ppl/numpyro
+```
+
 Install via
 ```
 cd sigformer
 pip install -e .
 ```
 
-Requirements
-```
-jax
-equinox
-signax
-numpyro
-```
+
+### Demo
 
 Data for all experiments can be obtained [here](https://drive.google.com/file/d/1VnXHy1ephw85sP-32E74m6uMjsjbxVRN/view?usp=share_link)
 
 A quick demo of hedging rough Bergomi price model is done by executing
+
 ```
 python scripts/main.py
 ```
