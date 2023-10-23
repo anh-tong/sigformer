@@ -8,7 +8,7 @@
 
 ### Installation
 
-There are major required package including
+There are major required packages including
 ```
 jax
 equinox   # https://github.com/patrick-kidger/equinox
@@ -25,7 +25,7 @@ pip install -e .
 
 ### Demo
 
-Data for all experiments can be obtained [here](https://drive.google.com/file/d/1VnXHy1ephw85sP-32E74m6uMjsjbxVRN/view?usp=share_link)
+Data for all experiments can be obtained [here](https://drive.google.com/file/d/1VnXHy1ephw85sP-32E74m6uMjsjbxVRN/view?usp=share_link). Please unzip and put it in `data` folder.
 
 A quick demo of hedging rough Bergomi price model is done by executing
 
