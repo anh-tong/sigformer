@@ -1,0 +1,12 @@
+.vscode/
+__pycache__/
+output/
+.idea/
+*.egg-info/
+build/
+dist/
+*.so
+dummy.png
+wandb/
+data/
+checkpoint/
